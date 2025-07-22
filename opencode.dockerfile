@@ -13,4 +13,4 @@ RUN which opencode
 EXPOSE 4096
 
 # start the API server
-CMD ["opencode", "serve"]
+CMD ["/usr/local/bin/opencode", "serve"]
